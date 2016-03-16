@@ -1,0 +1,40 @@
+package com.Nick.blocks;
+
+	import net.minecraft.creativetab.CreativeTabs;
+	import net.minecraft.item.Item;
+	import net.minecraftforge.fml.common.registry.GameRegistry;
+	
+	public class sailboat {
+
+		public static void mainRegistry(){
+			initializeItem();
+			registerItem();
+		}
+		public static Item sailboat;
+		public static void initializeItem(){
+			sailboat = new Item().setUnlocalizedName("sailboat").setCreativeTab(CreativeTabs.tabTransport);
+		}
+		public static void registerItem(){
+			GameRegistry.registerItem(sailboat, sailboat.getUnlocalizedName());
+		}
+	}
+	/*
+	public Blocks(){
+		fillArray();
+	}
+	// method from RedboxMachine used to read in from a text file.
+	private void fillArray()
+	   {
+	      try{
+	         Scanner sn = new Scanner(new File("blocks.txt"));
+	         while(sn.hasNextLine())
+	            returnMovie(sn.nextLine());
+	              
+	      }catch(FileNotFoundException e){
+	         String s = "File not found! Make sure that MovieList.txt ";
+	         s = s + "is in the same folder as the class.";
+	         System.out.println(s);
+	      }
+	   }*/
+	
+}

@@ -1,0 +1,5 @@
+package com.Nick.Main;
+@Mod(modid = , name = , version = )
+public class MainRegistry {
+
+}

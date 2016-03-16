@@ -1,0 +1,5 @@
+package com.Nick.Main;
+@Mod(modid = "windmod", name = "Wind Mod", version = "1.0" )
+public class MainRegistry {
+
+}

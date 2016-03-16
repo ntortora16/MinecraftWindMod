@@ -1,0 +1,17 @@
+package com.Nick.item;
+
+import net.minecraft.item.Item;
+public class sailboat {
+
+	public static void mainRegistry(){
+		initializeItem();
+		registerItem();
+	}
+	public static Item sailboat;
+	public static void initializeItem(){
+		sailboat = new Item().setUnlocalizedName("sailboat");
+	}
+	public static void registerItem(){
+		
+	}
+}

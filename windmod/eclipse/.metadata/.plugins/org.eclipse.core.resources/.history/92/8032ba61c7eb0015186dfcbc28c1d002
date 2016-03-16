@@ -1,0 +1,22 @@
+package com.Nick.blocks;
+
+import java.util.*;
+
+public class Blocks {
+	public Blocks(){
+		fillArray();
+	}
+	private void fillArray()
+	   {
+	      try{
+	         Scanner sn = new Scanner(new File("MovieList.txt"));
+	         while(sn.hasNextLine())
+	            returnMovie(sn.nextLine());
+	              
+	      }catch(FileNotFoundException e){
+	         String s = "File not found! Make sure that MovieList.txt ";
+	         s = s + "is in the same folder as the class.";
+	         System.out.println(s);
+	      }
+	   }
+}

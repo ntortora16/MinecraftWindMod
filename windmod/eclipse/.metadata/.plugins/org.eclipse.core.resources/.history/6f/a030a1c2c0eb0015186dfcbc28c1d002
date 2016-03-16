@@ -1,0 +1,8 @@
+package com.Nick.Main;
+
+import com.Nick.lib.References;
+
+@Mod(modid = References.MODID, name = References.NAME, version = References.VERSION)
+public class MainRegistry {
+
+}

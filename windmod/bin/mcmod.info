@@ -1,0 +1,16 @@
+[
+{
+  "modid": "windmod",
+  "name": "Wind Mod",
+  "description": "Wind mod.",
+  "version": "${1.0}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Nicholas Tortora"],
+  "credits": "makes a wind direction and windspeed",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

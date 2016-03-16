@@ -1,0 +1,12 @@
+package com.Nick.lib;
+
+public class References {
+
+	public static final String MODID = "windmod";
+	public static final String NAME = "Wind Mod";
+	public static final String VERSION = "1.0";
+	public static final String CLIENTSIDE = "com.Nick.Main.ClientProxy";
+	public static final String SERVERSIDE = "com.Nick.Main.ServerProxy";
+
+	
+}

@@ -1,0 +1,14 @@
+package com.Nick.item;
+
+public class sailboat {
+
+	public static void mainRegistry(){
+		initializeItem();
+	}
+	public static void initializeItem(){
+		
+	}
+	public static void registerItem(){
+		
+	}
+}

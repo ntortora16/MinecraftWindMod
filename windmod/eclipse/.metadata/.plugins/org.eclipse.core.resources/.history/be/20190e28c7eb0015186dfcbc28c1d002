@@ -1,0 +1,7 @@
+package com.Nick.blocks;
+
+public class Blocks {
+	public Blocks(){
+		fillArray();
+	}
+}
